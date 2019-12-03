@@ -1,0 +1,29 @@
+{
+  "name": "@democracy-deutschland/bundestag.io-definitions",
+  "version": "1.0.0",
+  "description": "Definitions for Bundestag-Strings",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/demokratie-live/bundestag.io-definitions.git",
+  "author": "Ulf Gebhardt <ulf.gebhardt@webcraft-media.de>",
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "link": "cd dist && npm link",
+    "lint": "tslint --project tsconfig.json && yarn typecheck",
+    "typecheck": "tsc --noEmit",
+    "test": "mocha -r ts-node/register src/**/*.test.ts",
+    "prepare": "yarn build"
+  },
+  "dependencies": {
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.20.1"
+  }
+}

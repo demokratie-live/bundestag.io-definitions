@@ -1,0 +1,18 @@
+#env:
+#  global:
+#    - secure: ".."
+matrix:
+  # sudo: required
+  include:
+  # test
+  - os: linux
+    language: node_js
+    node_js: 12
+    install:
+    - yarn install
+    before_script:
+    - yarn build
+    script:
+    - yarn test
+    after_script:
+    - echo "SUCCESS: Finished Test-Build"
