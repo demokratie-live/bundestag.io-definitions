@@ -70,7 +70,7 @@ export default {
       RUECKNAHME: 'Rücknahme',
       RUECKNAHME_VORLAGE: 'Rücknahme der Vorlage',
       // Search
-      FIND_BESCHLUSSEMPFEHLUNG_BERICHT: /Beschlussempfehlung und Bericht/i,
+      FIND_BESCHLUSSEMPFEHLUNG_BERICHT: /Beschlussempfehlung/i,
     },
     FINDSPOT: {
       // Search
