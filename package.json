@@ -1,6 +1,6 @@
 {
   "name": "@democracy-deutschland/bundestag.io-definitions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Definitions for Bundestag-Strings",
   "main": "./dist/index.js",
   "repository": "https://github.com/demokratie-live/bundestag.io-definitions.git",
