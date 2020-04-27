@@ -58,7 +58,7 @@ export default {
       },
       COMMENT: {
         // Search
-        FIND_BESCHLUSSEMPFEHLUNG_ABLEHNUNG: /Annahme der Beschlussempfehlung auf Ablehnung/i,
+        FIND_BESCHLUSSEMPFEHLUNG_ABLEHNUNG: /Annahme\s+der\s+Beschlussempfehlung\s+auf\s+Ablehnung/i,
       },
     },
     ABSTRACT: {
